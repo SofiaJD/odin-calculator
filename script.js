@@ -1,47 +1,23 @@
-function add(...numbers)
+function add(num1, num2)
 {
-    let total = 0; 
-
-    for(let i = 0; i < numbers.length; i++)
-    {   
-        total += numbers[i];
-    }
-
+    let total = num1 + num2;
     return total;
 }
 
-function subtract(num1, ...numbers)
+function subtract(num1, num2)
 {
-    let total = num1;
+    let total = num1 - num2; 
+    return total; 
+}
 
-    for(let i = 0; i < numbers.length; i++)
-    {   
-        total -= numbers[i];
-    }
-
+function multiply(num1, num2)
+{
+    let total = num1 * num2;
     return total;
 }
 
-function multiply(num1, ...numbers)
+function divide(num1, num2)
 {
-    let total = num1; 
-
-    for(let i = 0; i < numbers.length; i++)
-    {   
-        total *= numbers[i];
-    }
-
-    return total;
-}
-
-function divide(num1, ...numbers)
-{
-    let total = num1; 
-
-    for(let i = 0; i < numbers.length; i++)
-    {   
-        total /= numbers[i];
-    }
-
+    let total = num1 / num2;
     return total;
 }
