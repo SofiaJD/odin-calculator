@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body
+{
+    margin: 0;
+    padding-top: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat' ,'Segoe UI', sans-serif;
+}
+
+#container
+{
+    background-color: #ffe0e9;
+    width: 340px;
+    height: 540px;
+    padding: 10px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 8px 80px #d17a96;
+}
+
+#container #topContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container #topContainer h1
+{
+    font-size: 36px;
+    color: #b9375e;
+    font-family: 'Pixelify sans' , 'Courier New';
+    font-weight: 600;
+}
+
+#container #topContainer #screen
+{
+    background-color: white;
+    color: #b9375e;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    font-size: 32px;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#container #bottomContainer
+{
+    margin: 5px 0;
+}
+
+#container #bottomContainer #undoContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+#container #bottomContainer #undoContainer button
+{
+    width: 160px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff7aa2;
+    color: white;
+    font-weight: 600;
+    box-shadow: 1px 2px 3px #ffc2d4;
+}
+
+#container #bottomContainer #undoContainer button:hover
+{
+    background-color: #e05780;
+}
+
+#container #bottomContainer #keysContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container #bottomContainer #keysContainer #keys1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#container #bottomContainer #keysContainer #keys1 div
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#container #bottomContainer #keysContainer #keys1 button
+{
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    border-radius: 35px;
+    border: none;
+    background-color: white;
+    color: #b9375e;
+    font-weight: 600;
+    box-shadow: 1px 2px 3px #ffc2d4;
+}
+
+#container #bottomContainer #keysContainer #keys1 button:hover
+{
+    box-shadow: none;
+}
+
+#container #bottomContainer #keysContainer #keys1 #btnEqual
+{
+    background-color: #e05780;
+    color: white;
+}
+
+#container #bottomContainer #keysContainer #keys1 #btnDot
+{
+    font-size: 30px;
+}
+
+#container #bottomContainer #keysContainer #operations
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#container #bottomContainer #keysContainer #operations button
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #e05780;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    box-shadow: 1px 2px 3px #cb7e95;
+}
+
+#container #bottomContainer #keysContainer #operations button:hover
+{
+    box-shadow: none;
+}
+
+#container footer
+{
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Pixelify sans';
+    color: white;
+}
